@@ -6,15 +6,14 @@
     font-family: sans-serif;
     font-size: 14px;
 }
-
 body {
     width: 100%;
     min-height: 100vh;
-    background-color: rgb(243, 243, 243);
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
+    background-image: radial-gradient(circle at 40% 150%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 100%);
 }
 
 .instagram-wrapper {
@@ -114,8 +113,8 @@ body {
 }
 
 .app-download {
-    height: 3rem;
-    width: 10rem;
+    height: 3.5rem;
+    width: 12rem;
     background-size: cover;
 }
 
@@ -128,7 +127,17 @@ body {
 }
 
 /* media queries */
+@media (max-width: 1200px) {
+    .instagram-wrapper {
+        width: 70%;
+        height: 50%;
+        }
 
+        .instagram-phone img {
+        width: 90%;
+        height: 45rem;
+        }
+}
 
 @media (max-width: 1024px) {
     .instagram-wrapper {
@@ -152,8 +161,8 @@ body {
     .instagram-continue {
         width: 100%;
     }
-    
+
     .group {
         border: 1px solid transparent;
     }
-}
+} 
