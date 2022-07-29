@@ -1,7 +1,6 @@
-# DIO-Instagram
-Projeto realizado para o bootcamp Santander by DIO</br>
-# Minha versão da interface de login do Instagram :)
-<img alt="Preview" src="DIO-instagram/img/preview.PNG">
+# Projeto realizado para o bootcamp Santander by DIO</br>
+### Minha versão da interface de login do Instagram :)</br>
+<img alt="Preview" src="img/preview.PNG">
 
 # Oi, tudo bem? Chegou aqui através do curso, certo? 🙃
 
